@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-URL = "https://docs.google.com/spreadsheets/d/1u1nDgu7gnrh2FsNz5y50DQ_278W2CTbqdmeKLtNsRnQ/edit?usp=sharing"
+URL = "https://docs.google.com/spreadsheets/d/1u1nDgu7gnrh2FsNz5y50DQ_278W2CTbqdmeKLtNsRnQ/export?format=csv"
 
 def consultar_dispositivo(nome_dispositivo):
     df = pd.read_csv(URL)
